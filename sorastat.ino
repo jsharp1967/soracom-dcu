@@ -100,8 +100,8 @@ void receiveData(int byteCount)
    if (status == "On")
    {
       ucg.setColor(0, 255, 0);
-      XRstatus = "XR:CONNECTED OK";
-      XRStatus2 = "XR:WIFI ON    ";
+      XRstatus = "XR:CONNECTED OK ";
+      XRStatus2 = "XR:WIFI ON     ";
    }
    if (status == "Of")
    {
